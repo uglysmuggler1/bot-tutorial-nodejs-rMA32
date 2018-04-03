@@ -210,7 +210,7 @@ function respond() {
 
 
 
-    postMessage("http://daddyleagues.com/otss/team/"+request.text.substring(5,8)+"/depthchart");
+    postMessage("http://daddyleagues.com/lb/team/"+request.text.substring(5,8)+"/depthchart");
 
 
 
@@ -250,7 +250,7 @@ function respond() {
 
 
 
-    postMessage("https://daddyleagues.com/otss/schedules")
+    postMessage("https://daddyleagues.com/lb/schedules")
 
 
 
@@ -326,7 +326,7 @@ function respond() {
 
 
 
-    postMessage("http://daddyleagues.com/otss/blog")
+    postMessage("http://daddyleagues.com/lb/blog")
 
 
 
@@ -370,7 +370,7 @@ function respond() {
 
 
 
-    postMessage("http://daddyleagues.com/otss/standings")
+    postMessage("http://daddyleagues.com/lb/standings")
 
 
 
@@ -410,7 +410,7 @@ function respond() {
 
 
 
-    postMessage("http://daddyleagues.com/otss/standing/ranking");
+    postMessage("http://daddyleagues.com/lb/standing/ranking");
 
 
 
@@ -450,7 +450,7 @@ function respond() {
 
 
 
-    postMessage("http://daddyleagues.com/otss/stats/rookie");
+    postMessage("http://daddyleagues.com/lb/stats/rookie");
 
 
 
@@ -490,7 +490,7 @@ function respond() {
 
 
 
-    postMessage("http://daddyleagues.com/otss/stats/team");
+    postMessage("http://daddyleagues.com/lb/stats/team");
 
 
 
@@ -530,7 +530,7 @@ function respond() {
 
 
 
-    postMessage("http://daddyleagues.com/otss/stats/player");
+    postMessage("http://daddyleagues.com/lb/stats/player");
 
 
 
@@ -566,7 +566,7 @@ function respond() {
 
 
 
-    postMessage("https://www.daddyleagues.com/otss");
+    postMessage("https://www.daddyleagues.com/lb");
 
 
 
@@ -618,7 +618,7 @@ function respond() {
 
 
 
-    postMessage("http://daddyleagues.com/otss/team/"+request.text.substring(5,8)+"/schedule");
+    postMessage("http://daddyleagues.com/lb/team/"+request.text.substring(5,8)+"/schedule");
 
 
 
@@ -674,7 +674,7 @@ function respond() {
 
 
 
-    postMessage("http://daddyleagues.com/otss/players?name="+rep+"&position=all&team=all");
+    postMessage("http://daddyleagues.com/lb/players?name="+rep+"&position=all&team=all");
 
 
 
